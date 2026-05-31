@@ -1,4 +1,4 @@
-range_level = int(input("What is your range level?"))
+range_level = int(input("What is your range level? "))
 
 if range_level >= 90:
     print("You can use a Dragon Hunter Crossbow. You are crushing it!")
