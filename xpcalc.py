@@ -10,7 +10,7 @@ else:
     while xp_needed > 0:
         print("You need", xp_needed, "XP to reach your goal.")
         xp_needed -= xp_per_kill
-        if xp_needed <=0:
+        if xp_needed <= 0:
             break
         print("Keep training! You need " + str(xp_needed / xp_per_kill) + " kills to reach your goal.")
 
