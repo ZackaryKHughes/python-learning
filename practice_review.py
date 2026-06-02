@@ -67,3 +67,8 @@ if xp_needed <= 0:
     print("You already reached your goal!")
 else:
     print("Keep training!")
+
+    # What is xp_needed? The amount of XP needed to reach the goal, calculated as the difference between goal_xp and current_xp.
+    # Is xp_needed <= 0 True or False? False, because xp_needed is 25000, which is greater than 0.
+    # Which block runs? The else block runs because the condition in the if statement is False. It will print "Keep training!" to the screen.
+    # What prints? "Keep training!" because the condition in the if statement is False, so the else block executes.
