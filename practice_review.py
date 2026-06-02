@@ -40,3 +40,30 @@ print("Hello", user_name)
 # What type is user_name? String (Text)
 # What value is stored in user_name? The name the user inputs when prompted
 # What will print? Hello then the user inputs for their name. 
+
+# =========================
+# 3. Integers and Math
+# =========================
+
+current_xp = int(input("Enter your current XP: "))
+goal_xp = int(input("Enter your goal XP: "))
+
+xp_needed = goal_xp - current_xp
+
+print("You need " + str(xp_needed) + " XP to reach your goal.")
+
+# Current XP: 75000
+# Goal XP: 100000
+# What type is current_xp? Integer (whole number)
+# What type is goal_xp? Integer (whole number)
+# What value gets stored in xp_needed? The difference between goal_xp and current_xp, which is the amount of XP needed to reach the goal. In this case, xp_needed would be 25000 (100000 - 75000).
+# What will print? "You need then the value of xp_needed then XP to reach your" goal. In this case, it would print "You need 25000 XP to reach your goal."
+
+# =========================
+# 4. If / Else
+# =========================
+
+if xp_needed <= 0:
+    print("You already reached your goal!")
+else:
+    print("Keep training!")
