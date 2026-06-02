@@ -27,3 +27,16 @@ print(type(weight))
 print(type(is_learning))
 # What will print to the screen? "Zackary is 31 years old, weighs 220.2 pounds, and is learning Python: True"
 print(f"{name} is {age} years old, weighs {weight} pounds, and is learning Python: {is_learning}")
+
+
+# =========================
+# 2. User Input
+# =========================
+
+user_name = input("What is your name? ")
+
+print("Hello", user_name)
+
+# What type is user_name? String (Text)
+# What value is stored in user_name? The name the user inputs when prompted
+# What will print? Hello then the user inputs for their name. 
