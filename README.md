@@ -26,7 +26,7 @@ Features:
 
 ## Files
 
-- `savings_goal.py` - Main program
+- `budget_calculator.py` - Main program
 - `budget_functions.py` - Helper functions
 - `balances.txt` - Local saved balances, ignored by Git
 
